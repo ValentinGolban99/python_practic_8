@@ -31,9 +31,8 @@ def main():
     
     else:
         
-        print('Изменённое первое число:', change_number(first_n, count_numbers(first_n)))
+        print('\nИзменённое первое число:', change_number(first_n, count_numbers(first_n)))
         print('Изменённое второе число:', change_number(second_n, count_numbers(second_n)))
-    
-    print('\nСумма чисел:', change_number(first_n, count_numbers(first_n)) + change_number(second_n, count_numbers(second_n)))
+        print('\nСумма чисел:', change_number(first_n, count_numbers(first_n)) + change_number(second_n, count_numbers(second_n)))
 
 main()
